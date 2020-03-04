@@ -56,13 +56,12 @@ The **ngLifecycles** object contains all **single-spa-angularjs** methods for th
 ```json
 {
   "name": "single-spa-home-app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "AngularJS application with home page for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-home-app.js",
   "scripts": {
     "build": "webpack --config webpack.config.js -p",
-    "lint": "eslint . --ext .js --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext .js --fix"
   },
   "repository": {
     "type": "git",

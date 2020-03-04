@@ -49,7 +49,6 @@ export const { mount } = ngLifecycles;
 export const { unmount } = ngLifecycles;
 ```
 
-The **eslint** comments are indicated due to **webpack external** dependencies. Without the **eslint** comments the build process will fail.\
 The **ngLifecycles** object contains all **single-spa-angularjs** methods for the **single-spa** lifecycle of this app. All used config is default one but the custom config of the **el** option. It's assumed that an element with **home-app** id is defined in the **index.html** where this application will be mounted.
 
 ### package.json

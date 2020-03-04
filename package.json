@@ -4,8 +4,6 @@
   "description": "AngularJS application with home page for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-home-app.js",
   "scripts": {
-    "serve": "webpack-dev-server",
-    "start": "node server.js",
     "build": "webpack --config webpack.config.js -p",
     "lint": "eslint . --ext .js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"

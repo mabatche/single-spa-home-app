@@ -49,7 +49,7 @@ export const { mount } = ngLifecycles;
 export const { unmount } = ngLifecycles;
 ```
 
-The **ngLifecycles** object contains all **single-spa-angularjs** methods for the **single-spa** lifecycle of this app. All used config is default one but the custom config of the **el** option. It's assumed that an element with **home-app** id is defined in the **index.html** where this application will be mounted.
+The **ngLifecycles** object contains all **single-spa-angularjs** methods for the **single-spa** lifecycle of this app. All used config is default one but the custom config of the **domElementGetter** option. It's assumed that an element with **home-app** id is defined in the **index.html** where this application will be mounted.
 
 ### package.json
 

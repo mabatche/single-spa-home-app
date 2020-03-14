@@ -18,9 +18,32 @@ This is an AngularJS application with a home view for embbed the app inside a ro
 
 There are several files for the right working of this application and they are:
 
+- src/routes.js
 - src/singleSpaEntry.js
 - package.json
 - webpack.config.js
+
+### src/routes.js
+
+```javascript
+import angular from 'angular';
+import './components/home.component';
+
+angular.module('home-app')
+  .config(['$stateProvider', '$locationProvider', ($stateProvider, $locationProvider) => {
+    $locationProvider.html5Mode({
+      enabled: true,
+      requireBase: false,
+    });
+
+    $stateProvider.state('home', {
+      url: '/',
+      template: '<home-component />',
+    });
+  }]);
+```
+
+As this application will be mounted when browser url is **/**, we need to enable **html5 mode** into **$locationProvider**.
 
 ### src/singleSpaEntry.js
 

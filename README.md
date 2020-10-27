@@ -4,7 +4,6 @@
 </p>
 
 [![npm version](https://img.shields.io/npm/v/single-spa-home-app.svg?style=flat-square)](https://www.npmjs.org/package/single-spa-home-app)
-[![](https://data.jsdelivr.com/v1/package/npm/single-spa-home-app/badge)](https://www.jsdelivr.com/package/npm/single-spa-home-app)
 
 # single-spa-home-app
 

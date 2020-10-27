@@ -79,7 +79,7 @@ The **ngLifecycles** object contains all **single-spa-angularjs** methods for th
 ```json
 {
   "name": "single-spa-home-app",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "AngularJS application with home page for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-home-app.js",
   "scripts": {
@@ -97,7 +97,7 @@ The **ngLifecycles** object contains all **single-spa-angularjs** methods for th
   },
   "homepage": "https://github.com/jualoppaz/single-spa-home-app#readme",
   "dependencies": {
-    "angular": "1.7.9",
+    "angular": "1.8.0",
     "angular-ui-router": "1.0.25",
     "single-spa-angularjs": "3.1.0"
   },
@@ -115,7 +115,7 @@ The **ngLifecycles** object contains all **single-spa-angularjs** methods for th
     "html-webpack-plugin": "3.2.0",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10",
-    "webpack-dev-server": "3.10.3"
+    "webpack-dev-server": "3.11.0"
   },
   "keywords": [
     "single-spa",

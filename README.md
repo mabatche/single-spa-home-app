@@ -9,7 +9,7 @@
 
 This is an AngularJS application example used as NPM package in [single-spa-login-example-with-npm-packages](https://github.com/jualoppaz/single-spa-login-example-with-npm-packages) in order to register an application. See the installation instructions there.
 
-## ✍🏻 Motivation
+## ✍🏻 Motivation  
 
 This is an AngularJS application with a home view for embbed the app inside a root single-spa application.
 

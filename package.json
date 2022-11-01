@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jualoppaz/single-spa-home-app.git"
+    "url": "git+https://github.com/mabatche/single-spa-home-app.git"
   },
   "author": "Juan Manuel López Pazos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jualoppaz/single-spa-home-app/issues"
+    "url": "https://github.com/mabatche/single-spa-home-app/issues"
   },
-  "homepage": "https://github.com/jualoppaz/single-spa-home-app#readme",
+  "homepage": "https://github.com/mabatche/single-spa-home-app#readme",
   "dependencies": {
     "angular": "1.8.0",
     "angular-ui-router": "1.0.25",
